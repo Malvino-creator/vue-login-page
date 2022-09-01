@@ -17,6 +17,10 @@
             </v-text-field>
           </v-text-field>
         </v-card-text>
+        <v-divider></v-divider>
+        <v-card-actions>
+          <v-btn color="blue">Login</v-btn>
+        </v-card-actions>
       </v-card>
     </v-content>
   </v-app>
