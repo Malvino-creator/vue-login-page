@@ -13,7 +13,9 @@
         <v-card-title> Log In Area </v-card-title>
         <v-card-text>
           <v-text-field label="Username" prepend-icon="mdi-account-circle">
-            <v-text-field label="Password" type="password" prepend-icon="mdi-lock">
+            <v-text-field label="Password" type="password" prepend-icon="mdi-lock"
+            append append-icon="mdi-eye-off">
+            
             </v-text-field>
           </v-text-field>
         </v-card-text>
