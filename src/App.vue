@@ -14,7 +14,7 @@
         <v-card-text>
           <v-text-field label="Username" prepend-icon="mdi-account-circle">
             <v-text-field label="Password" type="password" prepend-icon="mdi-lock"
-            append append-icon="mdi-eye-off">
+            append ico>
             
             </v-text-field>
           </v-text-field>
@@ -29,10 +29,10 @@
 </template>
 
 <script>
-  export default {
-    data ()}
+export default {
+  data()
+   {  
+  return}
 
-  return{
-    showPassword:false
-  }
+}
 </script>
